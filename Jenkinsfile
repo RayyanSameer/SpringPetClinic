@@ -29,9 +29,9 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                sh 'java -jar target/*.jar'
+       // stage('Deploy') {
+        //    steps {
+            //    sh 'java -jar target/*.jar'
             }
         }
     }
